@@ -46,7 +46,7 @@ CREATE TABLE netflix
 ```sql
 select type,COUNT(type) as number_count
 from netflix
- group by type;
+group by type;
 ```
 
 **Objective:** Determine the distribution of content types on Netflix.
